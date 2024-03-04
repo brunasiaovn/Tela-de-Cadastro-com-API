@@ -2,9 +2,9 @@
 
 ##    Backend
 ### •   (NodeJS) Rotas
-▢ Criar api rest com fastify.
+✅ Criar api rest com fastify.
 
-▢ Comunicar com banco de dados.
+✅ Comunicar com banco de dados.
 
 ▢ Cadastrar novo cliente com nome, email e status.
    
