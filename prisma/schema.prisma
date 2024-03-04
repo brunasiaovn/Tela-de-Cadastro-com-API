@@ -21,5 +21,6 @@ model Customer {
   created_at DateTime? @default(now())
   update_at  DateTime? @default(now())
 
+
   @@map("customers")
 }
