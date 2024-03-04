@@ -1,5 +1,4 @@
 ## Tela de Cadastro com API
-
 ##    Backend
 ### •   (NodeJS) Rotas
 ✅ Criar api rest com fastify.
