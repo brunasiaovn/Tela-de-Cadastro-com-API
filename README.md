@@ -6,7 +6,7 @@
 
 ✅ Comunicar com banco de dados.
 
-▢ Cadastrar novo cliente com nome, email e status.
+✅ Cadastrar novo cliente com nome, email e status.
    
 ▢ Listar todos clientes cadastrados.
    
