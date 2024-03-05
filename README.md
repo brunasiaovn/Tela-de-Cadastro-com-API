@@ -10,7 +10,7 @@
 
 ✅  Listar todos os clientes cadastrados.
 
-▢  Excluir um cliente com base em um id.
+✅  Excluir um cliente com base em um id.
 #
 ## Front-end
 ### • Reagir JS + TypeScript
