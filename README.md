@@ -6,18 +6,18 @@
 
 ✅ Comunicar com banco de dados.
 
-▢ Cadastrar novo cliente com nome, email e status.
+✅ Cadastrar novo cliente com nome, email e status.
 
-▢ Listar todos os clientes cadastrados.
+▢  Listar todos os clientes cadastrados.
 
-▢ Excluir um cliente com base em um id.
+▢  Excluir um cliente com base em um id.
 #
 ## Front-end
 ### • Reagir JS + TypeScript
-▢ Consumir API Rest.
+▢  Consumir API Rest.
 
-▢ Listar todos os clientes cadastrados.
+▢  Listar todos os clientes cadastrados.
 
-▢ Cadastrar novo cliente com nome, email.
+▢  Cadastrar novo cliente com nome, email.
 
-▢ Excluir um cliente.
+▢  Excluir um cliente.
