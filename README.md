@@ -8,7 +8,7 @@
 
 ✅ Cadastrar novo cliente com nome, email e status.
 
-▢  Listar todos os clientes cadastrados.
+✅  Listar todos os clientes cadastrados.
 
 ▢  Excluir um cliente com base em um id.
 #
