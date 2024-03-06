@@ -18,6 +18,6 @@
 
 ✅  Listar todos os clientes cadastrados.
 
-▢  Cadastrar novo cliente com nome, email.
+✅  Cadastrar novo cliente com nome, email.
 
 ▢  Excluir um cliente.
