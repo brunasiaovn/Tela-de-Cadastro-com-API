@@ -14,7 +14,7 @@ export default function App() {
 
   const [customers, setCustomers] = useState<CustomerProps[]>([])
   const nameRef = useRef<HTMLInputElement | null>(null)
-  const emailRef = useRef<HTMLInputElement| null>(null)
+  const emailRef = useRef<HTMLInputElement | null>(null)
 
   useEffect(() => {
     loadCustomers();
@@ -25,17 +25,37 @@ export default function App() {
     setCustomers(response.data);
   }
 
-  async function handleSubimit(event: FormEvent){
+  async function handleSubimit(event: FormEvent) {
     event.preventDefault();
 
-    if(!nameRef.current?.value || !emailRef.current?.value) return;
+    if (!nameRef.current?.value || !emailRef.current?.value) return;
 
     const response = await api.post("/customer", {
-       name: nameRef.current?.value,
-       email: emailRef.current?.value
+      name: nameRef.current?.value,
+      email: emailRef.current?.value
     })
 
     setCustomers(allCustomers => [...allCustomers, response.data])
+
+    nameRef.current.value = ""
+    emailRef.current.value = ""
+
+  }
+
+  async function handleDelete(id: string) {
+    try {
+      await api.delete("/customer", {
+        params: {
+          id: id,
+        }
+      })
+
+      const allCustomers = customers.filter((customer) => customer.id !== id)
+      setCustomers(allCustomers)
+
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   return (
@@ -78,10 +98,10 @@ export default function App() {
 
               <button
                 className="bg-red-500 w-7 h-7 flex items-center justify-center rounded-lg absolute right-0 -top-2"
+                onClick={() => handleDelete(customer.id)}
               >
                 <FiTrash size={18} color="#fff" />
               </button>
-
             </article>
           ))}
 
