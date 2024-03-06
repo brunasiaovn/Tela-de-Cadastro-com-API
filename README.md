@@ -14,9 +14,9 @@
 #
 ## Front-end
 ### • Reagir JS + TypeScript
-▢  Consumir API Rest.
+✅  Consumir API Rest.
 
-▢  Listar todos os clientes cadastrados.
+✅  Listar todos os clientes cadastrados.
 
 ▢  Cadastrar novo cliente com nome, email.
 
