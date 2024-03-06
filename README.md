@@ -20,4 +20,4 @@
 
 ✅  Cadastrar novo cliente com nome, email.
 
-▢  Excluir um cliente.
+✅  Excluir um cliente.
